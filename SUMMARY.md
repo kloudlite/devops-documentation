@@ -15,6 +15,7 @@
   * [Installation](cli/installation.md)
   * [Authentication](cli/authentication.md)
   * [Initialization](cli/initialization.md)
+  * [Vpn](cli/vpn.md)
 
 ## References
 
