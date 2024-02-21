@@ -20,6 +20,8 @@ The InfraOps module is a core component of the Kloudlite platform, designed to f
 
 * **Graceful Management of Interruptions**: A key feature of the NodePools is their ability to handle spot instance replacements gracefully. This involves managing node interruptions efficiently to maintain the stability and reliability of the clusters.
 
+
+
 Here is the architecture diagram showing how Kloudlite InfraOps works
 
 <figure><img src=".gitbook/assets/diagram-export-15-12-2023-08_50_26.svg" alt=""><figcaption></figcaption></figure>

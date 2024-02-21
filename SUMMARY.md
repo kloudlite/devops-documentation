@@ -1,7 +1,5 @@
 # Table of contents
 
-## Introduction
-
 * [Kloudlite DevOps](README.md)
 * [How Kloudlite DevOps works ?](how-kloudlite-devops-works.md)
 * [Basic Concepts](basic-concepts.md)
@@ -13,13 +11,6 @@
   * [Create Router and Route](getting-started/create-router-and-route.md)
   * [Create Managed Resource](getting-started/create-managed-resource.md)
   * [What's next?](getting-started/whats-next.md)
-
-## Local Setup
-
-* [Page 1](local-setup/page-1.md)
-
-***
-
 * [CLI](cli/README.md)
   * [Installation](cli/installation.md)
   * [Authentication](cli/authentication.md)

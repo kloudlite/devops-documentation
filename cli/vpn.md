@@ -10,7 +10,9 @@ sudo kl vpn stop
 sudo kl vpn status
 sudo kl vpn restart
 
-# to tunnel traffic to your local you need to expose ports also
-kl wg expose -p <server_port>:<local_port>
-kl wg expose -p <server_port>:<local_port> -d    # provide -d flag to delete
+# expose port of selected device
+kl vpn expose port -p <port>:<your_local_port>
+
+# delete exposed port of selected device
+kl vpn expose port -d -p <port>:<your_local_port>
 ```
