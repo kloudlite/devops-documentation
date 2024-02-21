@@ -1,5 +1,11 @@
 # Initialization
 
+## Select Account
+
+```
+kl use account
+```
+
 ## Initialize your workspace
 
 To work with any project you need to initialize your workspace where you can define environments, managed resouces, mounts and etc. To initialize you workspace you can use the following command.

@@ -9,8 +9,3 @@ kl auth logout
 kl auth status
 ```
 
-## Select Account
-
-```
-kl use account
-```
