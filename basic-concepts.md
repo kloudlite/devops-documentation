@@ -12,11 +12,9 @@ Read more about project below:
 
 ***
 
-
-
 ## Environment
 
-Once you have an environment.  You can create your apps,  routers ,  managed resources, configs and secrets..
+Once you have an environment. You can create your apps, routers , managed resources, configs and secrets..
 
 You can manage your environment as public or private as per your requirement.
 
@@ -27,8 +25,6 @@ Read more about environment below:
 {% endcontent-ref %}
 
 ***
-
-
 
 ## Managed Services
 
@@ -49,8 +45,6 @@ Read more about managed services below:
 
 ***
 
-
-
 ## Apps
 
 The Kloudlite App is a Kubernetes tool designed to oversee the deployment, service, and scaling functionalities. Additionally, it handles essential monitoring hooks for the application and facilitates the streaming of logs.
@@ -64,8 +58,6 @@ Read more about apps below:
 {% endcontent-ref %}
 
 ***
-
-
 
 ## Router and Routes
 
@@ -81,8 +73,6 @@ Read more about router and routes below:
 
 ***
 
-
-
 ## Managed Resource
 
 Managed Resource will help you to create your resource in term of database based on different type of managed services.
@@ -95,15 +85,10 @@ Read more about managed resource below:
 
 ***
 
-
-
 ## Configs and Secrets
 
 Config and Secrets is an object that stores and manages sensitive information like passwords, API keys, tokens, or any other secret data. Secrets enable you to segregate sensitive information from your application code
 
 ***
 
-
-
 ## CLI
-
