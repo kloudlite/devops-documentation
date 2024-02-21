@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Kloudlite DevOps Testing](README.md)
+* [Kloudlite DevOps](README.md)
 * [How Kloudlite DevOps works ?](how-kloudlite-devops-works.md)
 * [Basic Concepts](basic-concepts.md)
 * [Getting Started](getting-started/README.md)

@@ -2,7 +2,7 @@
 description: 'Kloudlite InfraOps: Streamlining Kubernetes Cluster Management'
 ---
 
-# Kloudlite DevOps Testing
+# Kloudlite DevOps
 
 Kloudlite InfraOps is a platform designed to streamline the creation and management of Kubernetes clusters across various public cloud providers. By automating complex processes in cluster management and maintenance, Kloudlite enhances the efficiency of deploying, scaling, and managing Kubernetes environments.
 
