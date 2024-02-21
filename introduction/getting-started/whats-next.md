@@ -10,6 +10,6 @@ Great !!
 
 Now you can access kloudlite on your local machine using kloudlite command line interface:
 
-{% content-ref url="../cli/" %}
-[cli](../cli/)
+{% content-ref url="../../cli/" %}
+[cli](../../cli/)
 {% endcontent-ref %}
