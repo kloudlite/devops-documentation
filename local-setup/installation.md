@@ -20,7 +20,7 @@ You can install \[Your Tool Name] on Linux and MacOS using either `curl` or `wge
 Open your terminal and execute the following command:
 
 ```sh
-shCopy codecurl https://kl.kloudlite.io/kloudlite/kl | bash
+curl https://kl.kloudlite.io/kloudlite/kl | bash
 ```
 
 #### Using Wget
@@ -28,7 +28,7 @@ shCopy codecurl https://kl.kloudlite.io/kloudlite/kl | bash
 If you prefer `wget`, use this command instead:
 
 ```sh
-shCopy codewget -qO- https://kl.kloudlite.io/kloudlite/kl | bash
+wget -qO- https://kl.kloudlite.io/kloudlite/kl | bash
 ```
 
 #### Install Specific Version
@@ -36,7 +36,7 @@ shCopy codewget -qO- https://kl.kloudlite.io/kloudlite/kl | bash
 To install a specific version of \[Your Tool Name], use the following command, replacing `v1.0.0` with the desired version number:
 
 ```sh
-shCopy codecurl https://kl.kloudlite.io/kloudlite/kl@v1.0.0 | bash
+curl https://kl.kloudlite.io/kloudlite/kl@v1.0.0 | bash
 ```
 
 ### Installation on Windows
@@ -48,7 +48,7 @@ For Windows users, the installation process involves using PowerShell. Follow th
 Open PowerShell as Administrator and run the following command:
 
 ```powershell
-powershellCopy codeiwr https://kl.kloudlite.io/kloudlite/kl | iex
+iwr https://kl.kloudlite.io/kloudlite/kl | iex
 ```
 
 ### Post-Installation Steps
