@@ -1,61 +1,33 @@
 # Basic Concepts
 
-Kloudlite simplifies application deployment and management by organizing resources into a coherent structure. Here's an overview of the fundamental concepts within Kloudlite, designed to provide a comprehensive toolkit for your development needs.
+Kloudlite makes application deployment and management straightforward by organizing resources efficiently. This guide introduces the core concepts of Kloudlite, designed to equip developers with a comprehensive toolkit.
 
-## Kloudlite Project
+### Kloudlite Project
 
-A **Kloudlite Project** acts as a container for your Environments and Managed Services. It's the primary organizational unit within Kloudlite, encapsulating all the resources needed for your applications to run efficiently.
+A **Kloudlite Project** is where your application's environments and managed services live. It's the main organizational structure in Kloudlite, containing everything your applications need to run smoothly.
 
-{% content-ref url="getting-started/setup-first-project.md" %}
-[setup-first-project.md](getting-started/setup-first-project.md)
-{% endcontent-ref %}
+### Managed Services
 
-## Managed Service
+**Managed Services** are key services that your application relies on to function. Kloudlite simplifies the process of setting up, managing, and maintaining these services, including:
 
-**Managed Services** are stateful backing services crucial for application functionality. Kloudlite facilitates the deployment, management, and maintenance of these services, including:
+* **MongoDB** (available in both Cluster and Standalone modes)
+* **MySQL** (available in both Cluster and Standalone modes)
+* **Redis** (available in both Cluster and Standalone modes)
 
-* **MongoDB** (Cluster and Standalone)
-* **MySQL** (Cluster and Standalone)
-* **Redis** (Cluster and Standalone)
+These services are managed by Kloudlite to free you from manual setup and maintenance, ensuring your applications have the support they need. We're always working to add more services.
 
-These managed services eliminate the need for manual setup and maintenance, ensuring your applications are supported by reliable backing services. We plan to broaden our range of managed services in future releases.
+### Environment
 
-{% content-ref url="getting-started/create-managed-service.md" %}
-[create-managed-service.md](getting-started/create-managed-service.md)
-{% endcontent-ref %}
+An **Environment** in a Kloudlite Project includes your applications, configurations, secrets, managed resources, and routing. Environments are designed to be stateless, making it easy to replicate or remove them, which supports flexible and scalable application development.
 
-## Environment
+### Kloudlite Application
 
-An **Environment** within a Kloudlite Project encapsulates apps, configs, secrets, managed resources, and routers. Environments, being stateless, can be cloned and discarded with ease, offering flexibility and scalability for your application development lifecycle.
+A **Kloudlite Application** is a Kubernetes resource tailored for managing your application's deployment, service, autoscaling, and monitoring, ensuring efficient and scalable management of your workloads.
 
-{% content-ref url="getting-started/create-environment.md" %}
-[create-environment.md](getting-started/create-environment.md)
-{% endcontent-ref %}
+### Router & Routes
 
-## Kloudlite Application
+**Router & Routes** manage how external traffic reaches your applications, controlling the entry points and communication pathways to your services.
 
-A **Kloudlite Application** is a Kubernetes resource designed for managing the deployment, service, autoscaling, and monitoring of your applications. It ensures your workloads are efficiently managed and scalable.
+### Managed Resources
 
-{% content-ref url="getting-started/create-app.md" %}
-[create-app.md](getting-started/create-app.md)
-{% endcontent-ref %}
-
-## Router & Routes
-
-**Router & Routes** handle the ingress for your workloads, managing how external traffic is directed to your applications. This system allows you to control access points and pathways for communication with your services.
-
-{% content-ref url="getting-started/create-router-and-route.md" %}
-[create-router-and-route.md](getting-started/create-router-and-route.md)
-{% endcontent-ref %}
-
-## Managed Resources
-
-**Managed Resources** are stateless entities that define a relationship with a Managed Service. For instance, a Database in MySQL or a Topic in Kafka Managed Service. They represent the connection and utilization of managed services without maintaining the state within the environment.
-
-{% content-ref url="getting-started/create-managed-resource.md" %}
-[create-managed-resource.md](getting-started/create-managed-resource.md)
-{% endcontent-ref %}
-
-
-
-##
+**Managed Resources** are connections to Managed Services like a MySQL database or a Kafka topic. They facilitate the use of managed services in your environments without maintaining any state themselves.
