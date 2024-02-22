@@ -1,6 +1,6 @@
 # Initialization
 
-### Preliminary Step: Selecting Your Account
+## Preliminary Step: Selecting Your Account
 
 Before you start initializing your project with `kl` and setting up the `kl.yml` configuration file, it's essential to ensure that you're operating within the correct Kloudlite account context.
 
@@ -14,7 +14,7 @@ kl use account
 
 You will be prompted to choose an account from the list of accounts associated with your Kloudlite user. Select the appropriate account to set it as your current working context. This step ensures that all operations and configurations you perform are associated with the correct account.
 
-### Initializing Your Project with `kl`
+## Initializing Your Project with `kl`
 
 After setting the correct account context, you can proceed to initialize your project within the `kl` environment. Navigate to your project directory and create a `kl.yml` configuration file by executing:
 
@@ -24,7 +24,45 @@ kl init
 
 This command prompts you to choose a project from your selected Kloudlite account. Once you make your selection, a `kl.yml` file will be automatically generated in your project directory
 
-#### Sample `kl.yml` File
+## Setting Up Your Environment
+
+To fully configure your environment, you can use the following `kl` commands to add configurations, secrets, and managed resources (mres) to your project:
+
+#### Adding Configurations
+
+To add a configuration to your project, use:
+
+```sh
+kl add config
+```
+
+This command allows you to define and add configuration settings that are essential for your project's operation.
+
+#### Adding Secrets
+
+Manage sensitive information securely by adding secrets:
+
+```sh
+kl add secret
+```
+
+Secrets are securely stored and can be used within your project without exposing sensitive details in your codebase or `kl.yml` file.
+
+#### Adding Managed Resources
+
+To add managed resources (mres) that your project depends on:
+
+```sh
+kl add mres
+```
+
+Managed resources are external services or resources that your project utilizes, which can be configured directly from the command line.
+
+
+
+## Reference
+
+### Sample `kl.yml` File
 
 Here's an example of what your `kl.yml` file might look like:
 
