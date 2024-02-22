@@ -7,7 +7,7 @@ You need to authenticate by logging into your Kloudlite account. This process en
 Open your terminal or command prompt to begin. To log in, execute the following command:
 
 ```sh
-shCopy codekl auth login
+kl auth login
 ```
 
 After you run this command, you'll be prompted to enter your Kloudlite account credentials. Simply follow the instructions that appear on your screen to successfully log in.
@@ -17,7 +17,7 @@ After you run this command, you'll be prompted to enter your Kloudlite account c
 Should you need to log out from your Kloudlite account for any reason, you can easily do so with this command:
 
 ```sh
-shCopy codekl auth logout
+kl auth logout
 ```
 
 This ensures that your session is securely closed, preventing unauthorized access to your account details.
@@ -27,7 +27,7 @@ This ensures that your session is securely closed, preventing unauthorized acces
 To check if you are currently logged in and to see the status of your authentication, you can use:
 
 ```sh
-shCopy codekl status
+kl status
 ```
 
 This command will display a summary of your current authentication status, including details about your account, the project you're working on, the environment you're connected to, and your current device.
@@ -36,9 +36,8 @@ This command will display a summary of your current authentication status, inclu
 
 Running the `kl status` command will produce an output similar to this:
 
-```less
-lessCopy codeLogged in as Karthik Thirumalasetti (karthik@kloudlite.io)
-
+```css
+Logged in as Karthik Thirumalasetti (karthik@kloudlite.io)
 Account: demo-341290
 Project: samplep
 Environment: sample
