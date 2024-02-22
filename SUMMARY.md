@@ -19,7 +19,7 @@
 * [Installation](local-setup/installation.md)
 * [Authentication](local-setup/authentication.md)
 * [Initialization](local-setup/initialization.md)
-* [Setting up Environment](local-setup/environments.md)
+* [Loading Environment](local-setup/environments.md)
 * [Switch Environments](local-setup/switch-environments.md)
 * [VPN](local-setup/vpn.md)
 * [Intercept](local-setup/intercept.md)
