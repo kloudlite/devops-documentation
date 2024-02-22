@@ -13,7 +13,7 @@ Before proceeding with the installation, please ensure you have the following:
 
 ### Installation on Linux/MacOS
 
-You can install \[Your Tool Name] on Linux and MacOS using either `curl` or `wget`. Follow the instructions below based on your preference.
+You can install Kloudlite CLI (`kl`) on Linux and MacOS using either `curl` or `wget`. Follow the instructions below based on your preference.
 
 #### Using CURL
 
