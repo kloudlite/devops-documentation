@@ -1,18 +1,30 @@
 # Initialization
 
-To get your project up and running with `kl`, you'll need to navigate to your project directory and set up a `kl.yml` configuration file. This file is crucial for defining your project's environment and resources.
+### Preliminary Step: Selecting Your Account
 
-### Creating the `kl.yml` File
+Before you start initializing your project with `kl` and setting up the `kl.yml` configuration file, it's essential to ensure that you're operating within the correct Kloudlite account context.
 
-Inside your project directory, execute the following command to initialize your project:
+#### Choosing the Correct Account
+
+Open your terminal or command prompt and execute the following command to select the desired account:
+
+```sh
+kl use account
+```
+
+You will be prompted to choose an account from the list of accounts associated with your Kloudlite user. Select the appropriate account to set it as your current working context. This step ensures that all operations and configurations you perform are associated with the correct account.
+
+### Initializing Your Project with `kl`
+
+After setting the correct account context, you can proceed to initialize your project within the `kl` environment. Navigate to your project directory and create a `kl.yml` configuration file by executing:
 
 ```sh
 kl init
 ```
 
-You will be prompted to choose a project from your Kloudlite account. Once you select the appropriate project, a `kl.yml` file will be automatically created in your directory.
+This command prompts you to choose a project from your selected Kloudlite account. Once you make your selection, a `kl.yml` file will be automatically generated in your project directory
 
-### Sample `kl.yml` File
+#### Sample `kl.yml` File
 
 Here's an example of what your `kl.yml` file might look like:
 
