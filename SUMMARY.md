@@ -21,7 +21,7 @@
 * [Initialization](local-setup/initialization.md)
 * [Loading Environment](local-setup/environments.md)
 * [Switch Environments](local-setup/switch-environments.md)
-* [VPN](local-setup/vpn.md)
+* [VPN Connection](local-setup/vpn.md)
 * [Intercept](local-setup/intercept.md)
 
 ## References
