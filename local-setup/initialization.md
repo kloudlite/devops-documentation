@@ -36,7 +36,7 @@ To add a configuration to your project, use:
 kl add config
 ```
 
-This command allows you to define and add configuration settings that are essential for your project's operation.
+This command allows you to add config references to kl.yml file
 
 #### Adding Secrets
 
@@ -46,7 +46,7 @@ Manage sensitive information securely by adding secrets:
 kl add secret
 ```
 
-Secrets are securely stored and can be used within your project without exposing sensitive details in your codebase or `kl.yml` file.
+You can add secret references using this command. Secret values are securely stored and can be used without exposing sensitive details in your codebase or `kl.yml` file.&#x20;
 
 #### Adding Managed Resources
 
@@ -55,6 +55,8 @@ To add managed resources (mres) that your project depends on:
 ```sh
 kl add mres
 ```
+
+`mres` (Managed Resource) represents the variables you need to access & use your managed service. (Like DB Connection strings, Cache prefix names etc)
 
 Managed resources are external services or resources that your project utilizes, which can be configured directly from the command line.
 
