@@ -1,28 +1,68 @@
 # Initialization
 
-## Select Account
+To get your project up and running with `kl`, you'll need to navigate to your project directory and set up a `kl.yml` configuration file. This file is crucial for defining your project's environment and resources.
 
-```
-kl use account
-```
+### Creating the `kl.yml` File
 
-## Initialize your workspace
+Inside your project directory, execute the following command to initialize your project:
 
-To work with any project you need to initialize your workspace where you can define environments, managed resouces, mounts and etc. To initialize you workspace you can use the following command.
-
-```
+```sh
 kl init
 ```
 
-## Listing resources
+You will be prompted to choose a project from your Kloudlite account. Once you select the appropriate project, a `kl.yml` file will be automatically created in your directory.
 
-With this CLI you can list accounts, projects, envs, devices, configs, secrets and apps. To list resources you can use the following commands. For more details visit [kl list](https://github.com/kloudlite/kl/blob/main/docs/kl/kl\_list.md)
+### Sample `kl.yml` File
 
+Here's an example of what your `kl.yml` file might look like:
+
+```yaml
+version: v1
+defaultenv: sample
+
+project: demo-341290/samplep
+
+mres:
+  - name: auth-db
+    env:
+      - key: AUTH_DB_URI
+        refkey: URI
+
+configs:
+  - name: environment
+    env:
+      - key: NODE
+        refkey: NODE
+        
+secrets:
+  - name: rds-connection
+    env:
+      - key: DB_URL
+        refkey: RDS_URL
+env:
+  - key: SAMPLE_ENV
+    value: sample_value
+    
 ```
-kl list accounts
-kl list projects
-kl list envs
-kl list configs
-kl list secrets
-kl list apps
-```
+
+### Reference of kl.yml file
+
+<table><thead><tr><th width="194">Field</th><th>Description</th></tr></thead><tbody><tr><td><strong>version</strong></td><td>Specifies the version of the YAML schema used.</td></tr><tr><td><strong>defaultenv</strong></td><td>The default environment for the project. Initially empty and set by the user.</td></tr><tr><td><strong>project</strong></td><td>A reference to the project within Kloudlite.</td></tr></tbody></table>
+
+#### **Managed Resources (`mres`)**
+
+<table><thead><tr><th width="187">Field</th><th>Description</th></tr></thead><tbody><tr><td><strong>mres[].name</strong></td><td>The name of the managed resource.</td></tr><tr><td><strong>mres[].env</strong></td><td>Specifies environment variables related to the managed resource.</td></tr><tr><td><strong>mres[].env.key</strong></td><td>The environment variable key.</td></tr><tr><td><strong>mres[].env.refkey</strong></td><td>The reference key within the managed resource, whose value is assigned to the environment variable.</td></tr></tbody></table>
+
+#### **Configurations (`configs`)**
+
+<table><thead><tr><th width="214">Field</th><th>Description</th></tr></thead><tbody><tr><td><strong>configs[].name</strong></td><td>The name of the configuration.</td></tr><tr><td><strong>configs[].env</strong></td><td>Configuration related environment variables.</td></tr><tr><td><strong>configs[].env.key</strong></td><td>The key for the environment variable.</td></tr><tr><td><strong>configs[].env.refkey</strong></td><td>The reference key within the configuration, used to populate the environment variable.</td></tr></tbody></table>
+
+#### **Secrets (`secrets`)**
+
+<table><thead><tr><th width="221">Field</th><th>Description</th></tr></thead><tbody><tr><td><strong>secrets[].name</strong></td><td>The name of the secret.</td></tr><tr><td><strong>secrets[].env</strong></td><td>Secret related environment variables.</td></tr><tr><td><strong>secrets[].env.key</strong></td><td>The key for the environment variable.</td></tr><tr><td><strong>secrets[].env.refkey</strong></td><td>The reference key within the secret, used to populate the environment variable.</td></tr></tbody></table>
+
+#### **Environment Variables (`env`)**
+
+<table><thead><tr><th width="173">Field</th><th>Description</th></tr></thead><tbody><tr><td><strong>env[].key</strong></td><td>The key for the environment variable.</td></tr><tr><td><strong>env[].value</strong></td><td>The value assigned to the environment variable.</td></tr></tbody></table>
+
+\
