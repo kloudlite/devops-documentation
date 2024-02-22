@@ -22,7 +22,7 @@
 * [Loading Environment](local-setup/environments.md)
 * [Switch Environments](local-setup/switch-environments.md)
 * [VPN Connection](local-setup/vpn.md)
-* [Intercept](local-setup/intercept.md)
+* [App Intercept](local-setup/intercept.md)
 
 ## References
 
