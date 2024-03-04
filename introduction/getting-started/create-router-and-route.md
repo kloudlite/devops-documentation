@@ -1,9 +1,9 @@
 # Create Router and Route
 
-```
-# steps to create your first router
-dashboard > select project > select environment > add new router
-```
+Routers direct traffic to your application:
+
+1. **Access Router Settings:** Within your project and environment, go to "Add New Router" to start the setup.
+2. **Configure Router:** Follow the prompts to configure your router, making your application accessible as needed.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-02-21 at 2.11.30 PM.png" alt=""><figcaption></figcaption></figure>
 
