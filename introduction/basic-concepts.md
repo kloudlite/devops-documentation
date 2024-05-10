@@ -55,3 +55,11 @@ Read more about router and route below:
 Read more about managed resource below:
 
 [create-managed-resource.md](getting-started/create-managed-resource.md "mention")
+
+
+
+## Image Pull Secrets
+
+The "Image Pull Secrets" feature allows users to securely pull private container images from external container registries during Kubernetes deployments. This feature is essential for users who store their container images in private repositories that require authentication.
+
+[image-pull-secrets.md](getting-started/image-pull-secrets.md "mention")

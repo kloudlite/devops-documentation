@@ -6,3 +6,5 @@ Managed resources are essential components like databases or storage:
 2. **Set Up Resource:** Enter the required details to configure your managed resource for use with your applications.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-02-21 at 2.22.48 PM.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 at 5.55.56 PM.png" alt=""><figcaption></figcaption></figure>

@@ -12,6 +12,7 @@
   * [Create App](introduction/getting-started/create-app.md)
   * [Create Router and Route](introduction/getting-started/create-router-and-route.md)
   * [Create Managed Resource](introduction/getting-started/create-managed-resource.md)
+  * [Image pull secrets](introduction/getting-started/image-pull-secrets.md)
   * [What's next?](introduction/getting-started/whats-next.md)
 
 ## Local Setup
